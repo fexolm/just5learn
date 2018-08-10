@@ -19,6 +19,11 @@ PROGRAMS = {
         "reverse_array.c",
         "utility.c",
         "utility.h"
+    ],
+    "permute_array" : [
+        "permute_array.c",
+        "utility.c",
+        "utility.h"
     ]
 }
 
