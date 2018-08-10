@@ -7,10 +7,6 @@
 float euclidean_norm(float *arr, size_t len) {
     // calculate Euclidean norm of a vector
     // (square root of the sum of squared array elements)
-    float sum = 0;
-    for (size_t i = 0; i < len; i++)
-        sum += arr[i] * arr[i];
-    return sqrtf (sum);
 }
 
 int main() {
