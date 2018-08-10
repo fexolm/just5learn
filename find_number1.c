@@ -1,5 +1,6 @@
 #include <assert.h>
 #include <stddef.h>
+#include <stdbool.h>
 bool contains(int *arr, int len, int num) {
     // returns true if arr contains num
 }

@@ -1,6 +1,6 @@
 #include <assert.h>
 #include <stddef.h>
-
+#include <stdbool.h>
 // same as previous, but binary search here
 
 bool contains(int *arr, int len, int num) {

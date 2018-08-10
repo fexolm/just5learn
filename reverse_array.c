@@ -12,5 +12,5 @@ int main() {
     size_t len = sizeof(arr) / sizeof(arr[0]); // please don't use it
     print_array_int(arr, len);
     reverse_array(arr, len);
-    print_array(arr, len);
+    print_array_int(arr, len);
 }
