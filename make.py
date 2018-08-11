@@ -24,6 +24,13 @@ PROGRAMS = {
         "vector.h",
         "vector.c",
         "vector_main.c"
+    "permute_array" : [
+        "permute_array.c",
+        "utility.c",
+        "utility.h"
+    ],
+    "euclidean_norm" : [
+        "euclidean_norm.c"
     ]
 }
 
