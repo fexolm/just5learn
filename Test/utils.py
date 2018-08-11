@@ -23,5 +23,9 @@ class Test:
         return [True]
 
 class TestCase:
+    def __init__(self, i='', o=''):
+        self.input = i
+        self.output = o
+        
     input = str()
     outout = str()
