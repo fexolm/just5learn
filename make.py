@@ -3,7 +3,7 @@ import os
 CUR_DIR = os.getcwd()
 SOURCE_DIR=CUR_DIR + "/src/"
 BUILD_DIR=CUR_DIR + "/build/"
-CFLAGS="-O0 -g -Wall -Wextra"
+CFLAGS="-O0 -g -Wall"
 COMPILER="gcc"
 PROGRAMS = {
     "find_number1" : [
@@ -19,6 +19,11 @@ PROGRAMS = {
         "reverse_array.c",
         "utility.c",
         "utility.h"
+    ],
+    "vector" : [
+        "vector.h",
+        "vector.c",
+        "vector_main.c"
     ]
 }
 
