@@ -1,5 +1,5 @@
 void say_hello() {
-    // write hello world to stdout here ...
+    // print ""Hello world"" here
 }
 
 int main() {
