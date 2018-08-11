@@ -31,3 +31,5 @@
 *.out
 *.app
 build
+__pycache__
+Test/__pycache__
